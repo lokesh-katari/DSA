@@ -1,6 +1,8 @@
 # the trapping water problem takes a two pointer approach by  taking left and right pointer 
 # T C O(n) ,SC o(1)
 
+
+
 def trapping_water(heights):
     right = len(heights)-1
     left = 0
