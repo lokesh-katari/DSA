@@ -12,7 +12,7 @@ def genp(arr,temparr):
            boolarr[i] = False
 def genpString(str,tempstr):
     if(len(str)== len(tempstr)):
-        print(tempstr)
+        print("".join(tempstr))
         return
     for i in range(len(str)):
         if(not boolarr2[i]):
@@ -26,8 +26,8 @@ def genpString(str,tempstr):
 arr = [1,2,3]
 ind = 0
 boolarr =[False]*len(arr)
-samstr = "lokesh"
+samstr = "lok"
 boolarr2 =[False]*len(samstr)
 print(boolarr)
 genp(arr,[])
-genpString(samstr,"")
+genpString(list(samstr),[])
